@@ -26,7 +26,7 @@ export function Card() {
   useEffect(() => {
     const fetchPlanets = async () => {
       try {
-        const response = await fetch("/facts.json", {
+        const response = await fetch("../../dist/data/facts.json", {
           headers: {
             Accept: "application/json",
           },
